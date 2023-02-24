@@ -1,0 +1,146 @@
+body{
+    background-image: url(MyProjects/images/website-wireframe-1200x857.png);
+    background-size: cover;
+}
+
+
+header{
+    display: flex;
+    border: none;
+    max-width: 980px;
+    min-width: 480px;
+    margin: 0px auto;
+    background-color: rgba(206, 202, 6, 0.76);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+  
+}
+
+
+
+div a {
+  background-color: none;
+  text-decoration: none !important;
+  margin: 0px auto;
+  display: inline-block;
+  flex-direction: row;
+  width: 120px;
+  height: auto;
+  color: black;
+  text-align: center;
+  line-height: 2.5;
+  vertical-align: middle;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+
+
+
+  nav{
+    max-width: 980px;
+    min-width: 480px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+    margin: 0px auto;
+    background-color: rgba(128, 128, 128, 0.692);
+    border: none;
+    text-align: justify;
+    
+  }
+
+  nav div{
+    border: none;
+    border-radius: 3px;
+    background-color: #ccc;
+    align-content: space-between;
+    width: 120px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial;
+    margin: 0px auto;
+    padding: 5px 15px;
+    margin-top: 10px;
+    
+  }
+
+
+  footer{
+    max-width: 980px;
+    min-width: 480px;
+    height: auto;
+    border: none;
+    margin: 0px auto;
+    padding: 15px;
+    background-color: rgba(172, 163, 163, 0.836);
+  }
+
+.container{
+    max-width: 980px;
+    min-width: 480px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    border: none;
+    overflow: hidden;
+    }
+
+
+
+div{
+  border: none;
+  background-color: lightgrey;
+  width: 243px;
+  height: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 0px auto;
+  margin-top: 2px;
+  align-content: space-around;
+}
+
+img{
+  display: flex;
+  background-color: white;
+  height: 160px;
+  width: 94%;
+  margin: 0px auto;
+}
+
+.dis1, .dis2, .dis3, .dis4, .dis5{
+  border: none;
+  margin: 1px auto;
+  padding: 1px;
+  height: 0px;
+  width: 94%;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 854px){
+    nav div{
+        
+        width: 750px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    
+    
+  }

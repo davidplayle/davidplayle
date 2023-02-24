@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="style_movieData.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script_movieData.js" defer></script>
+</head>
+<body>
+ <main>
+    <header>
+        <h1>Tribute Page</h1>
+    </header>
+    <nav>
+      <div id="link"><a href="index.html">Home Page</a></div>
+      <div id="link"><a href="tribute.html">Tribute Page</a></div>
+      <div id="link"><a href="project.html">Project Gallery</a></div>
+      <div id="link"><a href="movieData.html">Movie Data</a></div>
+    </nav>
+  <body>
+    <main>
+     <section> 
+        <div class="container">
+            <!--Input Box-->
+            <div class="input_box">
+              <fieldset>
+                <legend>Input Movie Data</legend>
+                  <p>
+                    <label>Movie Title
+                      <input type="text" name="title" id="title">
+                    </label>
+                  </p>
+                  <p>
+                    <label> Plot
+                      <textarea id="plot"></textarea>
+                    </label>
+                  </p>
+                  <p>
+                    <br>
+                    <label>Cast
+                      <input type="text" name="cast" id="cast">
+                    </label>
+              
+                  </p>
+                  <p>
+                    <label>Run time
+                      <input type="text" name="run time" id="run_time">
+                    </label>
+                  </p>
+                  <p>
+                    <label>Rating
+                      <input type="number" placeholder="0.0" required name="price" min="0" max="10" value="0.0" step="0.1" name="rating" id="rating">
+                    </label>
+                  </p>
+                  <p>
+                    <label>Year
+                      <input type="text" name="year" id="year">
+                    </label>
+                  </p>
+                  <button id="submit">
+                    Submit
+                  </button>
+              </fieldset>
+            </div>
+            <!--Table-->
+            <div class="table">
+              <table id="table" border="3">
+               
+              </table>
+            </div>
+          </div>
+     </section>
+    </main>
+  </body>
+  <footer>
+    
+  </footer>
+  </html>
