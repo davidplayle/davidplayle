@@ -1,12 +1,11 @@
 body{
-  background-image: url(MyProjects/images/home_wallpepr.jpg);
+  background-image: url(MyProjects/images/4884841.jpg);
   background-size: cover;
 }
 
 
-
 header{
-  display: flex;
+  text-align: center;
   border: none;
   max-width: 980px;
   min-width: 480px;
@@ -98,6 +97,7 @@ footer{
   height: 202px;
   float: left;
   margin: 2px;
+  padding: 2px;
   
 }
 
@@ -107,6 +107,7 @@ footer{
   height: 202px;
   float: right;
   margin: 2px;
+  padding: 2px;
 }
 
 .window {

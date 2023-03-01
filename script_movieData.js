@@ -79,7 +79,7 @@ function tableObject(
   table.append(headingRow);
   
   // Like the td elements above, I will initialise all variables once and just override them each time
-  var newTr, plotTd, castTd, runtimeTd, ratingTd, yearTd;
+  var newTr, plotTd, castTd, runTimeTd, ratingTd, yearTd;
   // The Object.entries() method allows us to retrieve an object's keys and values, which are transformed into movieTitle and data for the loop
   for (var [movieTitle, data] of Object.entries(movieData)) {
     newTr = document.createElement("tr");
@@ -91,15 +91,15 @@ function tableObject(
     plotTd.appendChild(document.createTextNode(data.plot));
     castTd = document.createElement("td");
     castTd.appendChild(document.createTextNode(data.cast));
-    runtimeTd = document.createElement("td");
-    runtimeTd.appendChild(document.createTextNode(data.runtime));
+    runTimeTd = document.createElement("td");
+    runTimeTd.appendChild(document.createTextNode(data.runtime));
     ratingTd = document.createElement("td");
     ratingTd.appendChild(document.createTextNode(data.rating));
     yearTd = document.createElement("td");
     yearTd.appendChild(document.createTextNode(data.year));
   
     // We have created all the td elements which have their text added to them, add these all to the current row
-    newTr.append(titleTd, plotTd, castTd, runtimeTd, ratingTd, yearTd);
+    newTr.append(titleTd, plotTd, castTd, runTimeTd, ratingTd, yearTd);
     // Add this row to the table
     table.append(newTr)
   }
@@ -127,15 +127,15 @@ function tableObject(
     plotTd.appendChild(document.createTextNode(info.plot));
     castTd = document.createElement("td");
     castTd.appendChild(document.createTextNode(info.cast));
-    runtimeTd = document.createElement("td");
-    runtimeTd.appendChild(document.createTextNode(info.runtime));
+    runTimeTd = document.createElement("td");
+    runTimeTd.appendChild(document.createTextNode(info.runTime));
     ratingTd = document.createElement("td");
     ratingTd.appendChild(document.createTextNode(info.rating));
     yearTd = document.createElement("td");
     yearTd.appendChild(document.createTextNode(info.year));
   
     // We have created all the td elements which have their text added to them, add these all to the current row
-    newTr.append(titleTd, plotTd, castTd, runtimeTd, ratingTd, yearTd);
+    newTr.append(titleTd, plotTd, castTd, runTimeTd, ratingTd, yearTd);
     // Add this row to the table
     table.append(newTr)
   

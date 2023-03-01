@@ -5,11 +5,11 @@ const toggleTribute_Button = ()=>{
   
    if(tributeBtn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
      tributeBtn.textContent = 'Show less';
-     const change = document.querySelector('.dis1');
+     const change = document.querySelector('.dis2');
      change.style.height = '180px';
    } else {
      tributeBtn.textContent = initialText;
-     const change = document.querySelector('.dis1');
+     const change = document.querySelector('.dis2');
      change.style.height = '0px';
    }
 
@@ -24,11 +24,11 @@ const toggleProject_Button = ()=>{
   
    if(projectBtn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
      projectBtn.textContent = 'Show less';
-     const change = document.querySelector('.dis2');
+     const change = document.querySelector('.dis3');
      change.style.height = '180px';
    } else {
      projectBtn.textContent = initialText;
-     const change = document.querySelector('.dis2');
+     const change = document.querySelector('.dis3');
      change.style.height = '0px';
    }
 
@@ -43,11 +43,11 @@ const toggleMovie_Button = ()=>{
   
    if(movieBtn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
      movieBtn.textContent = 'Show less';
-     const change = document.querySelector('.dis3');
+     const change = document.querySelector('.dis4');
      change.style.height = '180px';
    } else {
      movieBtn.textContent = initialText;
-     const change = document.querySelector('.dis3');
+     const change = document.querySelector('.dis4');
      change.style.height = '0px';
    }
 
@@ -62,11 +62,11 @@ const toggleWeb_Button = ()=>{
   
    if(websiteBtn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
      websiteBtn.textContent = 'Show less';
-     const change = document.querySelector('.dis4');
+     const change = document.querySelector('.dis1');
      change.style.height = '180px';
    } else {
      websiteBtn.textContent = initialText;
-     const change = document.querySelector('.dis4');
+     const change = document.querySelector('.dis1');
      change.style.height = '0px';
    }
 
