@@ -8,8 +8,6 @@ The task I was assigned with for this project, was to create a game. This could 
 I chose to create a matching card game. I plan to include this game on my home page of my website, for users to play when they come across it. The game will consist of 12 cards that are aligned in a 4 x 3 grid formation. 
 
 
-![grid](/MyProjects/images/grid.png)
-
 Initially these cards will be laid face down, meaning that the back face of the card will need to be on display. The front face of the card will be revealed when the user clicks on the card by simply flipping over. The aim is to find a matching pair in the grid. If the cards there isn’t a match then both cards will flip back to display the back side of the card. If there is a match then the cards remain flipped and the user searches for another matching pair in the grid so and a so forth. Once we have found every matching pair in the grid in other words every card is flipped we the game ends. If the user refreshes the browser, the cards will be shuffled. 
 
 Instead of creating something basic such as find the matching colours in the grid, I will browse the internet for images a popular card game. I have in mind a set of cards from a deck that contain Kings, Queens, Ace of Hearts, Ace of Spades, Ace of Clubs, Ace of Diamonds. These are six cards but if we created a duplicate pair then we will have 12 in total. I will also need a classic pattern used for a deck of cards. 
